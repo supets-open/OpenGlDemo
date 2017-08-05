@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
 		mGlSurfaceView = new GLSurfaceView(this);
 		mGlSurfaceView.setEGLContextClientVersion(2);
 		mBall = new Ball(this);
-		mBall.setResId(R.drawable.www);
+		mBall.setResId(R.drawable.qww);
 		mGlSurfaceView.setRenderer(mBall);
 		setContentView(mGlSurfaceView);
 	}
